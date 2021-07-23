@@ -29,8 +29,8 @@ jobs:
     - name: Test with Maven
       run: mvn -e clean test
       
-  Allure riport:
-    # needs: test
+  Allure-report:
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: 📁 Get Allure history
