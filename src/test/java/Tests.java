@@ -9,7 +9,7 @@ public class Tests {
 
     @BeforeEach
     public void VideoBrowsing() {
-        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // teljes képernyőőben való használat
