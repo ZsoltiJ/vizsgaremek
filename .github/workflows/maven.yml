@@ -5,7 +5,7 @@ on: push
 jobs:
   autotests:
     name: Run tests and generate Allure Report
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -27,7 +27,7 @@ jobs:
 
       - name: Run Test
         if: always()
-        run: mvn test
+        run: mvn -e test
         continue-on-error: true
 
       - name: 📁 Get Allure history
