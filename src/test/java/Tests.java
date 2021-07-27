@@ -26,12 +26,6 @@ public class Tests {
         assertEquals("https://codecool.com/hu/", url);
     }
 
-    @Test
-    public void WebTestFail() {
-        String url = driver.getCurrentUrl();
-        assertEquals("https://codecool.com/", url);
-    }
-
     @AfterEach
     public void stopProcess() { driver.quit(); }
 
