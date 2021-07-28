@@ -29,7 +29,7 @@ public class Tests {
     @Test
     public void WebTest2() {
         String url = driver.getCurrentUrl();
-        assertEquals("https://codecool.com/", url);
+        assertEquals("https://codecool.com/hu/", url);
     }
 
     @AfterEach
