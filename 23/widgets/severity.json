@@ -1,0 +1,21 @@
+[ {
+  "uid" : "57eaf7f6162a16aa",
+  "name" : "WebTest()",
+  "time" : {
+    "start" : 1627494123581,
+    "stop" : 1627494132999,
+    "duration" : 9418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "584c3457c7b83eea",
+  "name" : "WebTest2()",
+  "time" : {
+    "start" : 1627494133104,
+    "stop" : 1627494136806,
+    "duration" : 3702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
